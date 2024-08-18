@@ -41,7 +41,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-
+v-6
 topic
 
 modifier    (slightly modify karna, tailwind ki pre-defined classes)
+
+
+
+
+v-7
+topic
+
+flex-box
+flex-wrap
+align-item
+flex-direction

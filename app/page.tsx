@@ -2,23 +2,60 @@ import Image from "next/image";
 import CarWheel from "@/components/Wheel";
 import CarHeadlight from "@/components/Headlight";
 import CarSeats from "@/components/Seats";
+import Navbar from "@/components/Navbar";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
-    <div>
-      <div className="bg-blue-500 h-24 w-52 hover:scale-150"></div>
-      <CarWheel />
-      <CarWheel />
-      <CarWheel />
-      <CarWheel />
-      <CarHeadlight />
-      <CarHeadlight />
-      <CarSeats />
-      <CarSeats />
-      <CarSeats />
-      <CarSeats />
-      <CarSeats />
-    </div>
+    <>
+    <Navbar />
+    <Team />
+    </>
+
+
+
+
+
+
+    // <div className="flex bg-gray-800 text-gray-300 text-2xl justify-end">
+    //   <div className="px-2 mx-4 my-6 hover:font-bold">Home</div>
+    //   <div className="px-2 mx-4 my-6 hover:font-bold">About</div>
+    //   <div className="px-2 mx-4 my-6 hover:font-bold">Contact</div>
+    // </div>
+
+
+
+
+
+
+
+    // <div className="flex">
+    //   <div>Home</div>
+    //   <div>About</div>
+    //   <div>Contact</div>
+    // </div>
+
+
+
+
+
+
+
+
+    // <div>    // v-6
+    //   <div className="bg-blue-500 h-24 w-52 hover:scale-150"></div>
+    //   <CarWheel />
+    //   <CarWheel />
+    //   <CarWheel />
+    //   <CarWheel />
+    //   <CarHeadlight />
+    //   <CarHeadlight />
+    //   <CarSeats />
+    //   <CarSeats />
+    //   <CarSeats />
+    //   <CarSeats />
+    //   <CarSeats />
+    // </div>
 
 
 
@@ -51,7 +88,7 @@ export default function Home() {
 
 
 
-    // <div>
+    // <div>         // v-5
     //   <p className="text-xs">This is the one with 12px font size.</p>
     //   <p className="text-lg">This is the one with 18px font size.</p>
     //   <p className="text-2xl">This is the one with 24px font size.</p>
