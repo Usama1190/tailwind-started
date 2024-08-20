@@ -7,14 +7,27 @@ import Team from "@/components/Team";
 import Reviews from "@/components/Reviews";
 import Subscribe from "@/components/Subscribe";
 
+import FlexContainer from "@/components/FlexContainer";
+
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Team />
-      <Reviews />
-      <Subscribe />
+      <FlexContainer />
     </>
+
+
+
+
+
+
+
+
+    // <>
+    //   <Navbar />
+    //   <Team />
+    //   <Reviews />
+    //   <Subscribe />
+    // </>
 
 
 

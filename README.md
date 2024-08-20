@@ -57,3 +57,13 @@ flex-wrap
 align-item
 flex-direction
 flex-grow
+
+
+
+
+v8     Aug 21, 24
+topic 
+
+flex-basis
+flex shorthand property
+auto margins
