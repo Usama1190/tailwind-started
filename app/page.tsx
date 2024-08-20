@@ -4,12 +4,16 @@ import CarHeadlight from "@/components/Headlight";
 import CarSeats from "@/components/Seats";
 import Navbar from "@/components/Navbar";
 import Team from "@/components/Team";
+import Reviews from "@/components/Reviews";
+import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <Team />
+      <Navbar />
+      <Team />
+      <Reviews />
+      <Subscribe />
     </>
 
 

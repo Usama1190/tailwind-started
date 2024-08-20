@@ -56,3 +56,4 @@ flex-box
 flex-wrap
 align-item
 flex-direction
+flex-grow
