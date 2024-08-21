@@ -10,11 +10,24 @@ import Subscribe from "@/components/Subscribe";
 import FlexContainer from "@/components/FlexContainer";
 import Footer from "@/components/Footer";
 
+import BlogGrid from "@/components/BlogGrid";      // 22, Aug
+
 export default function Home() {
   return (
     <>
-      <Footer />
+      <BlogGrid />
     </>
+
+
+
+
+
+
+
+
+    // <>
+    //   <Footer />
+    // </>
 
 
 
