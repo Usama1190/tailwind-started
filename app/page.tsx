@@ -8,12 +8,23 @@ import Reviews from "@/components/Reviews";
 import Subscribe from "@/components/Subscribe";
 
 import FlexContainer from "@/components/FlexContainer";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <FlexContainer />
+      <Footer />
     </>
+
+
+
+
+
+
+
+    // <>
+    //   <FlexContainer />
+    // </>
 
 
 
